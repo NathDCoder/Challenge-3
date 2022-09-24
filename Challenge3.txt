@@ -1,0 +1,20 @@
+Homework Assignment 
+-------------------------------------------------------
+This is my code for a Password Generator that allows the user to 
+generate a password of their choice based on the options they choose.
+-------------------------------------------------------------------------
+
+1. The first thing I did was create an array of strings consisting of Lowercase, Uppercase,
+numbers, and Special characters. I seperated each catergory because I knew that the User would need 
+a choice of whether they wanted to include a catergory or not.
+
+2. Next I created variables that would go into if statements, so that once a catergory was chosen the 
+computer would either read it as true or false. Each variable would have a comfirm prompt, and then the true or 
+false statements would follow. I also created alerts in the if' statements incase the user puts nothing or 
+if it doesn't meet password length requirements. Each confirm statement is attached to a variable called 
+passwordOptions of the different catergories and then a return statment that would return a password at random.
+
+3.Next I created the Math.Random formula and the function generatePassword. I punched in the values into each if statement 
+for the all the options available and used .push to push them into the newly generated password.
+
+4. All the other elements that attached the newly generated password to the page were provided. 
